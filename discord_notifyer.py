@@ -20,9 +20,5 @@ class Notifyer():
 
         self.webhook.send(message)
 
-notifyer = Notifyer('./webhook.txt')
-test_data = {'lr' : 0.001, 'iteration' : 1}
-
-notifyer.send_message(test_data)
  
 
